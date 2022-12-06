@@ -8,9 +8,9 @@ const fs = require('fs');
 
 // console.log(a.toString())
 
-// fs.writeFile('file2.txt', "This is a data", ()=>{
-//     console.log("Written to the file")
-// });
+fs.writeFile('file2.txt', "This is a dataess", ()=>{
+    console.log("Written to the file")
+});
 
 b = fs.writeFileSync('file2.txt', "This is a data2")
 console.log(b)

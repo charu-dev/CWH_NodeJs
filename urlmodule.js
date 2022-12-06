@@ -1,4 +1,5 @@
-import url from 'url';
+// import url from 'url';
+const url= require('url');
 
 
 const myURL = new URL('https://example.org:8000');
