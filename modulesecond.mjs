@@ -1,3 +1,4 @@
+// .mjs me require use nhi kr skte bhaii.es6 ka item hai yeh
 export function simple(){
     console.log("Simple is Complex")
     return 45
